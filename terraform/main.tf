@@ -12,7 +12,7 @@ terraform {
   }
 }
 
-resource "azurerm_resource_group" "rg-hello-azure" {
+resource "azurerm_resource_group" "pts-appsre-test-rg" {
   name     = "pts-appsre-test-rg"
   location = "northcentralus"
 }
